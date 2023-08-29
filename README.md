@@ -1,4 +1,6 @@
-Workshop2 User Management System
+#Workshop2
+
+User Management System
 A basic Java application designed to manage user information by performing CRUD (Create, Read, Update, Delete) operations using a MySQL database.
 
 Features:
