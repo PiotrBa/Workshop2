@@ -20,17 +20,17 @@ Removes a user's details using the provided user ID.
 Fetches all users from the database.
 
 * Database Utility (DbUtil): 
-Provides connection capabilities to the MySQL database.
+- Provides connection capabilities to the MySQL database.
 * Security:
-Passwords are securely hashed using the jBcrypt library before being stored or updated in the database.
+P- asswords are securely hashed using the jBcrypt library before being stored or updated in the database.
 
 * Technical Details:
-- Programming Language: Java
-- Database: MySQL
+- Programming Language: Java.
+- Database: MySQL.
 * External Libraries:
 - mysql-connector-j for MySQL JDBC driver.
 - jbcrypt for password hashing.
+  
 Setup:
-
 Ensure you have the MySQL server running and the necessary database and tables created as required by the DAO class. 
 Update the DB_URL_WORKSHOP, DB_USER, and DB_PASSWORD in the DbUtil class with your database details.
