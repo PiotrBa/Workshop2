@@ -3,18 +3,18 @@ A basic Java application designed to manage user information by performing CRUD 
 
 Features:
 
-User Entity: 
+- User Entity: 
 A simple Java class (User) representing a user in the system. It contains basic user attributes such as id, userName, email, and password.
 User Data Access Object (DAO):
-Create: 
+- Create: 
 Allows for adding a new user to the database, with the password being securely hashed using BCrypt.
-Read: 
+- Read: 
 Retrieves a user's details based on the provided user ID.
-Update: 
+- Update: 
 Modifies an existing user's details, including hashing a new password if changed.
-Delete: 
+- Delete: 
 Removes a user's details using the provided user ID.
-Find All: 
+- Find All: 
 Fetches all users from the database.
 
 Database Utility (DbUtil): 
